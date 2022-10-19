@@ -7,9 +7,9 @@ pipeline{
 
     stages{
         
-        stage('GIT CHECKOUT'){
+        stage('Message'){
             steps {
-            git branch: 'main', url: 'git@github.com:Raghu0461/pyhtonBashDeployNew.git'
+             echo "This Is Raghu Ram"
             }
         }
         stage('Python Script'){
