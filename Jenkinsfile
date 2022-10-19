@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Python Script'){
              steps {
-             sh 'program.py'
+             sh 'python program.py'
              }
         }
         stage('Bash Script'){
